@@ -13,19 +13,14 @@ function Button(props) {
 
   const refresh = () => {
     pack.sort(() => Math.random() - 0.5);
-    //console.log(pack);
   };
 
   const cardBelow = () => {
-    //pack.pop();
     console.log(pack.pop());
-    //console.log(pack);
   };
 
   const cardOnTop = () => {
-    //pack.shift();
     console.log(pack.shift());
-    //console.log(pack);
   };
 
   /*--------------------*/
