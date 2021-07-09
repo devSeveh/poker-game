@@ -1,0 +1,17 @@
+.card {
+  display: flex;
+  width: 120px;
+  height: 80px;
+
+  border: 1px solid blue;
+  text-decoration: line-through;
+  text-decoration-thickness: 5px;
+}
+.isShow {
+  text-decoration: initial;
+}
+
+.tasks {
+  max-height: 200px;
+  overflow-y: auto;
+}

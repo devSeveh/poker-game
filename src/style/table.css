@@ -1,0 +1,9 @@
+.table {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.hands {
+  display: flex;
+  justify-content: space-between;
+}
